@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 async function vasu() {
   const secure_password = await bcrypt.hash('vasu1232', 5);
   console.log(secure_password);
+  console.log("htis is our console")
 }
 
 // Call the function
